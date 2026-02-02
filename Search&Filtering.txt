@@ -1,0 +1,5 @@
+Get-ChildItem -Recurse         Recursive search
+Select-String "keyword" file   Search inside file
+Where-Object {$_.Name -like "*log*"}   Filter objects
+Sort-Object                    Sort output
+Select-Object                  Select specific fields

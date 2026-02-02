@@ -1,0 +1,4 @@
+Get-LocalUser                  List local users
+New-LocalUser                  Create user
+Get-LocalGroup                 List groups
+Add-LocalGroupMember           Add user to group

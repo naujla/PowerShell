@@ -1,0 +1,6 @@
+Get-Help <cmd>                 Show help for a command
+Get-Help <cmd> -Examples       Show examples
+Get-Command                    List all available commands
+Get-Alias                      List aliases
+Get-History                    Show command history
+Clear-Host                     Clear screen (alias: cls, clear)

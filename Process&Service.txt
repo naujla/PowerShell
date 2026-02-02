@@ -1,0 +1,5 @@
+Get-Process                    List processes
+Stop-Process -Name notepad     Kill process
+Start-Service <name>           Start service
+Stop-Service <name>            Stop service
+Restart-Service <name>         Restart service

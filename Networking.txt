@@ -1,0 +1,5 @@
+Test-Connection google.com     Ping
+Test-NetConnection -Port 80    Test port
+Get-NetIPAddress               Show IP addresses
+Get-NetAdapter                 Show network adapters
+Resolve-DnsName google.com     DNS lookup

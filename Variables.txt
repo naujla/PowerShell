@@ -1,0 +1,4 @@
+$var = "Hello"                 Create variable
+$var                           Display variable
+Remove-Variable var            Delete variable
+Get-Variable                   List variables

@@ -1,0 +1,3 @@
+Enable-PSRemoting              Enable remoting
+Enter-PSSession <computer>     Remote session
+Invoke-Command -ComputerName   Run remote command

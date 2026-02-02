@@ -1,0 +1,4 @@
+Get-Module                     List loaded modules
+Get-Module -ListAvailable      List installed modules
+Install-Module <name>          Install module
+Import-Module <name>           Load module

@@ -1,0 +1,6 @@
+Get-ComputerInfo               Detailed system info
+Get-Process                    List running processes
+Get-Service                    List services
+Get-Date                       Show current date/time
+Get-Uptime                     System uptime
+Get-EventLog -LogName System   View system logs

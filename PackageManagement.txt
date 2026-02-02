@@ -1,0 +1,4 @@
+Get-Package                    List installed packages
+Find-Package                   Search for packages
+Install-Package <name>         Install package
+Uninstall-Package <name>       Remove package

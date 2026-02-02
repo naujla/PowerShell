@@ -1,0 +1,4 @@
+Get-Acl file.txt               View permissions
+Set-Acl file.txt $acl          Set permissions
+Get-ExecutionPolicy            View script execution policy
+Set-ExecutionPolicy            RemoteSigned

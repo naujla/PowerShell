@@ -1,0 +1,10 @@
+Get-ChildItem                  List files (alias: ls, dir)
+Set-Location <path>            Change directory (alias: cd)
+New-Item file.txt              Create file
+New-Item -ItemType Directory   Create directory
+Copy-Item src dest             Copy file/folder
+Move-Item src dest             Move/rename file
+Remove-Item file.txt           Delete file
+Get-Content file.txt           View file content
+Set-Content file.txt "text"    Overwrite file
+Add-Content file.txt "text"    Append text

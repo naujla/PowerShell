@@ -1,0 +1,5 @@
+# Comment
+$var = "value"                 Variables
+if (condition) { }             If statement
+foreach ($i in $list) { }      Loop
+function Test-Function { }     Function

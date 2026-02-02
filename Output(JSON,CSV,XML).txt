@@ -1,0 +1,4 @@
+ConvertTo-Json                 Convert object to JSON
+ConvertFrom-Json               Parse JSON
+Import-Csv file.csv            Read CSV
+Export-Csv file.csv            Write CSV

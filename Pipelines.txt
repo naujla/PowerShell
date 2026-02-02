@@ -1,0 +1,2 @@
+Get-Service | Where-Object {$_.Status -eq "Running"}
+Get-Process | Sort-Object CPU -Descending | Select-Object -First 5
