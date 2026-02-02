@@ -2,7 +2,7 @@
 
 A complete, structured, and beginner‑friendly PowerShell Commands Cheat Sheet designed for IT professionals, DevOps engineers, system administrators, and anyone preparing for PowerShell or Windows administration interviews.
 
-This repository organizes PowerShell concepts into clean sections, making it easy to navigate, learn, and reference.
+This repository organizes PowerShell concepts into clean sections, including advanced topics such as GUI development, WMI, database connectivity, email automation, and software installation.
 
 ---
 
@@ -18,6 +18,18 @@ This repository organizes PowerShell concepts into clean sections, making it eas
 - PowerShell remoting  
 - Modules and package management  
 - User and group management  
+- **PowerShell GUI (WinForms / WPF)**  
+- **Advanced functions and modules**  
+- **Event Viewer and Task Scheduler automation**  
+- **WMI / CIM and system inventory**  
+- **Database connectivity (SQL Server example)**  
+- **Sending emails using PowerShell**  
+- **Software installation automation**  
+- **Objects and custom objects**  
+- **Text file handling and parsing**  
+- **Programming variables, loops, and logic**  
+
+---
 
 
 ---
@@ -30,6 +42,7 @@ This repository serves as:
 - A portfolio asset showcasing PowerShell expertise  
 - A quick reference guide for daily operations  
 - A learning resource for beginners and intermediate users  
+- A practical automation toolkit for real‑world tasks  
 
 ---
 
@@ -39,7 +52,3 @@ Contributions are welcome.
 Feel free to fork the repo and submit pull requests for improvements or additional PowerShell topics.
 
 ---
-
-## 📄 License
-
-This project is open‑source under the MIT License.
