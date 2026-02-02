@@ -1,0 +1,26 @@
+#Advanced Function with Parameters
+
+function Get-DiskInfo {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [string]$ComputerName
+    )
+
+    Get-WmiObject Win32_LogicalDisk -ComputerName $ComputerName |
+        Select-Object DeviceID, Size, FreeSpace
+}
+
+# Creating a Module
+
+MyModule\
+│── MyModule.psm1
+│── MyModule.psd1
+
+
+# My Module psm1
+
+function Get-Hello {
+    "Hello from module!"
+}
+Export-ModuleMember -Function Get-Hello

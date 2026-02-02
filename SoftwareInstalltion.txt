@@ -1,0 +1,9 @@
+#Install msi
+Start-Process msiexec.exe -ArgumentList "/i C:\Install\App.msi /quiet /norestart" -Wait
+
+#Install exe
+Start-Process "setup.exe" -ArgumentList "/silent" -Wait
+
+#Install Winget 
+winget install Google.Chrome
+

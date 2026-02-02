@@ -1,0 +1,23 @@
+#Read Event logs
+Get-EventLog -LogName System -Newest 20
+
+#Filter Event logs
+Get-EventLog -LogName System -Newest 20
+
+#Create Scheduled task
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-File C:\Scripts\Backup.ps1"
+$trigger = New-ScheduledTaskTrigger -Daily -At 3am
+Register-ScheduledTask -TaskName "DailyBackup" -Action $action -Trigger $trigger
+
+#WMI & CMI(System Information)
+Get-WmiObject Win32_OperatingSystem
+
+#Get Installed Software
+Get-WmiObject Win32_Product | Select-Object Name, Version
+
+#Get CPU Information
+Get-CimInstance Win32_Processor
+
+
+
+

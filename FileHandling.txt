@@ -1,0 +1,12 @@
+# Read File
+Get-Content file.txt
+
+# Write File
+Set-Content file.txt "Hello World"
+
+# Append File
+Add-Content file.txt "New Line"
+
+# Search inside File
+Select-String -Path file.txt -Pattern "error"
+

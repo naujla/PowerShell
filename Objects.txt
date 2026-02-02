@@ -1,0 +1,13 @@
+#Everything is an object 
+$service = Get-Service -Name wuauserv
+$service.Status
+$service.DisplayName
+
+#Create Custom objects
+[PSCustomObject]@{
+    Name = "Narender"
+    Role = "DevOps Engineer"
+    Location = "USA"
+}
+
+

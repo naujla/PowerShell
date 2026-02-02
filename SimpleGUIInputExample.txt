@@ -1,0 +1,28 @@
+Add-Type -AssemblyName System.Windows.Forms
+
+$form = New-Object System.Windows.Forms.Form
+$form.Text = "User Input"
+$form.Width = 300
+$form.Height = 150
+
+$label = New-Object System.Windows.Forms.Label
+$label.Text = "Enter your name:"
+$label.Top = 20
+$label.Left = 10
+$form.Controls.Add($label)
+
+$textBox = New-Object System.Windows.Forms.TextBox
+$textBox.Top = 40
+$textBox.Left = 10
+$form.Controls.Add($textBox)
+
+$button = New-Object System.Windows.Forms.Button
+$button.Text = "Submit"
+$button.Top = 70
+$button.Left = 10
+$button.Add_Click({
+    [System.Windows.Forms.MessageBox]::Show("Hello $($textBox.Text)")
+})
+$form.Controls.Add($button)
+
+$form.ShowDialog()

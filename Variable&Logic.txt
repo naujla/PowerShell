@@ -1,0 +1,22 @@
+#Variables
+$name = "Narender"
+$age = 30
+
+#If/Else
+if ($age -gt 18) {
+    "Adult"
+} else {
+    "Minor"
+}
+
+#Loops
+foreach ($i in 1..5) {
+    "Number: $i"
+}
+
+#Function
+function Add-Numbers {
+    param($a, $b)
+    return $a + $b
+}
+Add-Numbers 5 10
